@@ -20,9 +20,6 @@ Redirect  Loads.dss     ! Balanced Loads
 Redirect  Capacitors.dss
 Redirect  CapControls.dss
 Redirect  Regulators.dss
-Redirect PVShapes.dss
-New EnergyMeter.m1 element=Line.hvmv_sub_connector
-!Redirect LoadShapes.dss
 
 ! Let DSS estimate the voltage bases
 Set voltagebases=[115, 12.47,  0.48, 0.208]
