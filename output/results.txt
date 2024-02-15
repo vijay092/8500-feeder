@@ -1,0 +1,23 @@
+jade show-results -o output
+
+Results from directory: output
+JADE Version: 0.9.9
+01/18/2024 00:06:40
+
++-----------+-------------+----------+--------------------+----------------------------+------------+
+|  Job Name | Return Code |  Status  | Execution Time (s) |      Completion Time       | HPC Job ID |
++-----------+-------------+----------+--------------------+----------------------------+------------+
+| base_8500 |      1      | finished | 20.019160270690918 | 2024-01-18 00:06:30.351251 |    None    |
++-----------+-------------+----------+--------------------+----------------------------+------------+
+
+Num successful: 0
+Num failed: 1
+Num canceled: 0
+Num missing: 0
+Missing job names: []
+Total: 1
+
+Avg execution time (s): 20.02
+Min execution time (s): 20.02
+Max execution time (s): 20.02
+

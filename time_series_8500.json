@@ -1,0 +1,24 @@
+{
+  "model_type": "PowerFlowTimeSeriesSimulationModel",
+  "start_time": "2021-01-01 00:00:00",
+  "end_time": "2021-01-02 00:00:00",
+  "step_resolution": 900,
+  "include_control_mode": false,
+  "include_pf1": true,
+  "jobs": [
+    {
+      "name": "base_8500",
+      "opendss_model_file": "opendss-model-files/Master.dss",
+       "pydss_controllers": [
+       {
+         "controller_type": "PvController",
+         "name": "volt_var_ieee_1547_2018_catB",
+         "targets": null
+       }
+      ],
+      "blocked_by": [],
+      "estimated_run_minutes": null,
+      "project_data": {}
+    }
+  ]
+}

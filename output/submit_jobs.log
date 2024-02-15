@@ -1,0 +1,25 @@
+2024-01-18 00:06:10,083 - INFO [jade.cli.submit_jobs submit_jobs.py:90] : jade submit-jobs time_series_config.json -l -f
+2024-01-18 00:06:10,094 - INFO [jade.jobs.job_configuration job_configuration.py:506] : Added submission group default
+2024-01-18 00:06:10,095 - INFO [jade.jobs.job_configuration job_configuration.py:338] : Submission group default has 1 jobs
+2024-01-18 00:06:10,095 - INFO [jade.jobs.job_configuration job_configuration.py:410] : Dumped configuration to output/config.json
+2024-01-18 00:06:10,097 - INFO [jade.jobs.cluster cluster.py:567] : Wrote config version 1 reason=create hostname=svijaysh-36684S
+2024-01-18 00:06:10,120 - INFO [jade.jobs.cluster cluster.py:588] : Wrote job_status version 1 reason=create hostname=svijaysh-36684S
+2024-01-18 00:06:10,121 - INFO [jade.jobs.job_submitter job_submitter.py:114] : Submit 1 jobs for execution.
+2024-01-18 00:06:10,121 - INFO [jade.jobs.job_submitter job_submitter.py:115] : JADE version 0.9.9
+2024-01-18 00:06:10,188 - INFO [jade.utils.repository_info repository_info.py:96] : No diff detected in repository.
+2024-01-18 00:06:10,320 - INFO [jade.jobs.job_submitter job_submitter.py:313] : disco repository information: {'current_branch': 'main', 'diff_patch_file': None, 'last_commit': 'b4a9136f3d3cb475c32ee99575a8617602a42799', 'status': '# branch.oid b4a9136f3d3cb475c32ee99575a8617602a42799\n# branch.head main\n# branch.upstream origin/main\n# branch.ab +0 -0'}
+2024-01-18 00:06:10,326 - INFO [jade.jobs.job_runner job_runner.py:90] : Run jobs.
+2024-01-18 00:06:10,327 - INFO [jade.jobs.job_runner job_runner.py:181] : Created jade scratch_dir=/var/folders/sk/6d3t1k8163q5l95c5tcr2t9x68smg8/T/jade-66a3e3fd-0b93-4146-bd8e-08473480e4a7
+2024-01-18 00:06:10,329 - INFO [jade.jobs.job_configuration job_configuration.py:648] : Dumped config file locally to /var/folders/sk/6d3t1k8163q5l95c5tcr2t9x68smg8/T/jade-66a3e3fd-0b93-4146-bd8e-08473480e4a7/config.json
+2024-01-18 00:06:10,329 - INFO [jade.jobs.job_runner job_runner.py:212] : Generated 1 jobs to execute on 1 workers max=16.
+2024-01-18 00:06:10,339 - INFO [jade.jobs.async_cli_command async_cli_command.py:168] : Started job name=base_8500 hpc_job_id=None
+2024-01-18 00:06:30,370 - INFO [jade.jobs.async_cli_command async_cli_command.py:78] : Job base_8500 completed return_code=1 exec_time_s=20.019160270690918 hpc_job_id=None
+2024-01-18 00:06:40,375 - INFO [jade.jobs.job_runner job_runner.py:249] : Jobs are complete. count=1
+2024-01-18 00:06:40,378 - INFO [jade.utils.timing_utils timing_utils.py:35] : execution-time=1.461 ms func=_aggregate_events
+2024-01-18 00:06:40,378 - INFO [jade.jobs.job_runner job_runner.py:130] : Completed 1 jobs
+2024-01-18 00:06:40,380 - INFO [jade.utils.timing_utils timing_utils.py:35] : execution-time=30.054 s func=run_jobs
+2024-01-18 00:06:40,384 - INFO [jade.jobs.job_submitter job_submitter.py:258] : Wrote results to output/results.json.
+2024-01-18 00:06:40,385 - WARNING [jade.jobs.job_submitter job_submitter.py:265] : Successful=0 Failed=1 Canceled=0 Missing=0 Total=1
+2024-01-18 00:06:59,023 - INFO [jade.jobs.job_submitter job_submitter.py:401] : Generated reports output/results.txt output/errors.txt output/stats.txt output/stats_summary.json.
+2024-01-18 00:06:59,027 - INFO [jade.jobs.cluster cluster.py:567] : Wrote config version 2 reason=mark_complete hostname=svijaysh-36684S
+2024-01-18 00:06:59,030 - INFO [jade.jobs.cluster cluster.py:567] : Wrote config version 3 reason=demote_from_submitter hostname=svijaysh-36684S

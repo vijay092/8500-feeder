@@ -1,0 +1,4 @@
+{"category": "HPC", "data": {"num_jobs": 1}, "event_class": "StructuredLogEvent", "message": "job submission started", "name": "submit_completed", "source": "submitter", "timestamp": "2024-01-18 00:06:10.323498"}
+{"category": "ResourceUtilization", "data": {"bytes_consumed": 95631}, "event_class": "StructuredLogEvent", "message": "job output directory size", "name": "bytes_consumed", "source": "base_8500", "timestamp": "2024-01-18 00:06:30.350629"}
+{"category": "ResourceUtilization", "data": {"bytes_consumed": 11523}, "event_class": "StructuredLogEvent", "message": "main output directory size", "name": "bytes_consumed", "source": "submitter", "timestamp": "2024-01-18 00:06:40.385461"}
+{"category": "HPC", "data": {"num_jobs": 1}, "event_class": "StructuredLogEvent", "message": "job submission completed", "name": "submit_completed", "source": "submitter", "timestamp": "2024-01-18 00:06:40.385644"}

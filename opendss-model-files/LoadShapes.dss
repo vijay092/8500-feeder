@@ -1,0 +1,1 @@
+New Loadshape.com_kvar_41805_pu npts=96 interval=0.25 actual = mult = (file=load_scaled_15.csv) qmult = (file=load_scaled_15.csv)

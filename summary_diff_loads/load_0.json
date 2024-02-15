@@ -1,0 +1,80 @@
+{
+    "scenarios": {
+        "pf1": {
+            "primaries": {
+                "metric_1": {
+                    "time_points": [],
+                    "duration": 0.0
+                },
+                "metric_2": {},
+                "metric_3": {
+                    "time_points": [],
+                    "duration": 83700.0
+                },
+                "metric_4": {
+                    "percent_node_ansi_a_violations": []
+                },
+                "metric_5": {
+                    "min_voltages": {},
+                    "max_voltages": {}
+                },
+                "metric_6": {
+                    "num_time_points": 96,
+                    "percent_time_points": 100.0,
+                    "duration": 86400.0
+                },
+                "summary": {
+                    "voltage_duration_between_ansi_a_and_b_minutes": 0,
+                    "max_per_node_voltage_duration_outside_ansi_a_minutes": 1440.0,
+                    "moving_average_voltage_duration_outside_ansi_a_minutes": 1395.0,
+                    "moving_window_minutes": 60,
+                    "max_voltage": 1.1333239109132904,
+                    "min_voltage": 0.06520121761278676,
+                    "num_nodes_always_inside_ansi_a": 0,
+                    "num_nodes_any_outside_ansi_a_always_inside_ansi_b": 6,
+                    "num_nodes_any_outside_ansi_b": 3827,
+                    "num_time_points_with_ansi_b_violations": 96,
+                    "total_num_time_points": 96,
+                    "total_simulation_duration": 86400.0
+                }
+            },
+            "secondaries": {
+                "metric_1": {
+                    "time_points": [],
+                    "duration": 0.0
+                },
+                "metric_2": {},
+                "metric_3": {
+                    "time_points": [],
+                    "duration": 83700.0
+                },
+                "metric_4": {
+                    "percent_node_ansi_a_violations": []
+                },
+                "metric_5": {
+                    "min_voltages": {},
+                    "max_voltages": {}
+                },
+                "metric_6": {
+                    "num_time_points": 96,
+                    "percent_time_points": 100.0,
+                    "duration": 86400.0
+                },
+                "summary": {
+                    "voltage_duration_between_ansi_a_and_b_minutes": 0,
+                    "max_per_node_voltage_duration_outside_ansi_a_minutes": 1440.0,
+                    "moving_average_voltage_duration_outside_ansi_a_minutes": 1395.0,
+                    "moving_window_minutes": 60,
+                    "max_voltage": 1.132324563708209,
+                    "min_voltage": 1.0033555447925975,
+                    "num_nodes_always_inside_ansi_a": 0,
+                    "num_nodes_any_outside_ansi_a_always_inside_ansi_b": 12,
+                    "num_nodes_any_outside_ansi_b": 4696,
+                    "num_time_points_with_ansi_b_violations": 96,
+                    "total_num_time_points": 96,
+                    "total_simulation_duration": 86400.0
+                }
+            }
+        }
+    }
+}
